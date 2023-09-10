@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from data_upload_event import app
+from s3-lambda-event-handler import app
 
 
 @pytest.fixture()

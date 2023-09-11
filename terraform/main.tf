@@ -3,7 +3,7 @@ data "aws_region" "current" {
 
 data "aws_caller_identity" "current" {
 }
-ß
+
 module "lambda" {
   source                         = "./modules/lambda"
   description                    = var.description

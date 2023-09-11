@@ -17,9 +17,10 @@ lint = true
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
 resolve_s3 = true
-s3_prefix = "sam-app"
+s3_prefix = "sam-app-2"
 region = "us-west-2"
 image_repositories = []
+stack_name = "sam-app-2"
 
 [default.package.parameters]
 resolve_s3 = true
